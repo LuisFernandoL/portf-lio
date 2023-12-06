@@ -6,6 +6,7 @@ import {
   DiMysql,
   DiReact,
 } from "react-icons/di";
+import { FaPython } from "react-icons/fa";
 
 import { SiTypescript } from "react-icons/si"
 import { BiLogoPostgresql, BiLogoGit } from "react-icons/bi"
@@ -22,7 +23,7 @@ const technologies = [
   { id: "typescript", name: "TypeScript", icon: <SiTypescript /> },
   { id: "postgresql", name: "PostgreSQL", icon: <BiLogoPostgresql /> },
   { id: "git", name: "Git", icon: <BiLogoGit /> },
-
+  { id: "python", name: "Python", icon: <FaPython /> },
 ];
 
 const TechnologiesContainer = () => {

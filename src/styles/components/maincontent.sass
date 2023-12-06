@@ -5,28 +5,62 @@
     background-color: variables.$bg-color
     flex: 2 1 0
     border-radius: variables.$container-border-radius
-    padding: 3rem
+    padding: 1rem
 
     section
         display: flex
         flex-direction: column
 
-    h2
-        color: variables.$text-color
-        font-size: 2.2rem
-        margin-bottom: 1.2rem
-        @include mixins.center
-        justify-content: start
-        gap: 1rem
+        h2
+            color: variables.$text-color
+            font-size: 2.2rem
+            margin-bottom: 1.2rem
+            @include mixins.center
+            justify-content: start
+            gap: 1rem
 
-        &:after
-            @include mixins.gradient-border
+            &:after
+                @include mixins.gradient-border
 
-    p
-        color: variables.$text-color-secundary
-        margin-bottom: 1rem
-        line-height: 1.4rem
+        p
+            color: variables.$text-color-secundary
+            margin-bottom: 1rem
+            line-height: 1.4rem
 
-    .btn
-        @include mixins.btn
-        align-self: start
+        .btn
+            @include mixins.btn
+            align-self: start
+
+
+
+$layout-breakpoint-small: 420px
+@media (min-width: $layout-breakpoint-small)
+    #main-content
+        background-color: variables.$bg-color
+        flex: 2 1 0
+        border-radius: variables.$container-border-radius
+        padding: 3rem
+
+        section
+            display: flex
+            flex-direction: column
+
+        h2
+            color: variables.$text-color
+            font-size: 2.2rem
+            margin-bottom: 1.2rem
+            @include mixins.center
+            justify-content: start
+            gap: 1rem
+
+            &:after
+                @include mixins.gradient-border
+
+        p
+            color: variables.$text-color-secundary
+            margin-bottom: 1rem
+            line-height: 1.4rem
+
+        .btn
+            @include mixins.btn
+            align-self: start

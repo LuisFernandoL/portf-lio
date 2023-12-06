@@ -8,10 +8,14 @@ const Sidebar = () => {
   return (
     <aside id="sidebar">
       <img src={Avatar} alt="Luis Fernando" />
-      <p className="title">Desenvolvedor Front-end</p>
-      <SocialNetworks/>
-      <InformationContainer/>
-      <a href="https://drive.google.com/file/d/1HFaMo7fAEaucKwjUKx58ZP9JGn_GlgaR/view?usp=sharing" target="blank" className="btn">
+      <p className="title">Desenvolvedor Full Stack</p>
+      <SocialNetworks />
+      <InformationContainer />
+      <a
+        href="https://drive.google.com/file/d/11YPynrFE9wwQLn9nieNa5U9pt6aCTPi-/view?usp=sharing"
+        target="blank"
+        className="btn"
+      >
         Dowload currículo
       </a>
     </aside>
